@@ -1,0 +1,37 @@
+.sidebar-option-element {
+  padding: 8px 12px 8px 12px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.sidebar-option-element > .icon {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.sidebar-option-element > .num {
+  margin-left: 80px;
+}
+
+.sidebar-option-element:hover {
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.sidebar-Option-active{
+    background-color: rgb(204, 228, 255);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.sidebar-Option-active:hover{
+    background-color: rgb(204, 228, 255);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

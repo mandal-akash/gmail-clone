@@ -1,0 +1,64 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    flex: 0.1;
+    align-items: center;
+    padding: 8px;
+}
+
+.menuBar{
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 13px 10px 13px;
+}
+.menuBar:hover{
+    cursor: pointer;
+   background-color: rgb(231, 230, 230);
+    border-radius: 50px;
+}
+
+.header-middle{
+    background-color: rgb(226, 239, 247);
+    display: flex;
+    align-items: center;
+    flex: 0.6;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.header-middle > input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    font-size: medium;
+    background-color: transparent;
+    outline: none;
+}
+input::placeholder{
+    padding: 10px;
+    font-size: 18px;
+}
+.header-right{
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-right > .icon {
+    color: rgb(116, 115, 115);
+    padding: 6px 10px 6px 10px;
+}
+
+.header-right > .icon:hover{
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50px;
+}

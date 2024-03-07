@@ -1,0 +1,84 @@
+
+.sendMail{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    border: 1px solid rgb(201, 201, 201);
+    width: 33%;
+    height: 70%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 1px 3px 8px 0px rgb(158, 158, 158);
+    display: flex;
+    flex-direction: column;
+}
+
+.sendMail-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 242, 250);
+    padding: 7px;
+    color: rgb(71, 71, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sendMail-h-icon > .icon {
+    margin-left: 10px;
+}
+
+.sendMail > form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.sendMail > form > input {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sendMail-message{
+   flex: 1;
+   border-bottom: none!important;
+}
+
+.sendMail-option{
+    margin: 10px;
+}
+
+.sendMail-option > .send {
+    padding: 8px 30px 8px 30px;
+    font-size: 15px;
+     font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 100, 199);
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.sendMail-option > .send:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(130, 179, 253);
+}
+
+.sendMail-option > .icon {
+    margin-left: 10px;
+    padding: 3px;
+    color: rgb(75, 75, 75);
+}
+
+.sendMail-option > .icon:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightgrey;
+}

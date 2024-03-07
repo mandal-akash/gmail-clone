@@ -1,0 +1,30 @@
+.section{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    min-width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.section > .icons {
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.section > h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section:hover{
+    background-color: rgb(240, 238, 238);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-selected{
+    color: rgb(4, 105, 238);
+    border-bottom: 2px solid rgb(4, 105, 238);
+}

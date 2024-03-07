@@ -1,0 +1,35 @@
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+.login-container > h1 {
+    margin-top: 12px;
+    padding: 15px;
+    color: rgb(71, 71, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.loginBtn{
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(48, 119, 185);
+    border: 1px solid rgb(48, 119, 185);
+    transition: ease-in-out 0.5s;
+}
+
+.loginBtn:hover{
+    cursor: pointer;
+    box-shadow: 2px 6px 6px 0px rgb(68, 68, 68);
+}

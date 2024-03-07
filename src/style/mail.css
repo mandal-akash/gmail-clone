@@ -1,0 +1,79 @@
+
+.mail{
+    flex: 1;
+    margin: 10px;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 15px;
+}
+.mail-Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.mailHeader-left-tools{
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    color: rgb(71, 71, 71);
+}
+
+.mailHeader-left-tools > .icon {
+    padding: 8px 12px 8px 12px;
+}
+
+.mailHeader-left-tools > .icon:hover{
+    cursor: pointer;
+    background-color: rgb(226, 225, 225);
+    border-radius: 50px;
+}
+.mail-header-right-tools{
+    color: rgb(71, 71, 71);
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.mail-header-right-tools > .icon {
+    padding: 8px 12px 8px 12px;
+}
+
+.mail-header-right-tools > .icon:hover{
+    cursor: pointer;
+    background-color: rgb(226, 225, 225);
+    border-radius: 50px;
+}
+
+.mail-body-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(40, 136, 247);
+}
+
+.mail-body-header > p {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mail-message > p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px;
+    margin-left: 15px;
+}
+
+.mail-body-icon > .icon {
+    padding: 8px 12px 8px 12px;
+}
+
+.mail-body-icon > .icon:hover{
+    cursor: pointer;
+    background-color: rgb(226, 225, 225);
+    border-radius: 50px;
+}

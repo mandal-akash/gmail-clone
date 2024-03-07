@@ -1,0 +1,10 @@
+
+.App{
+    background-color: rgb(243, 249, 250);
+    /* height: 100vh; */
+}
+
+.app-body{
+    display: flex;
+    height: 100vh;
+}

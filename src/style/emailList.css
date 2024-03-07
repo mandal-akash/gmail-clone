@@ -1,0 +1,54 @@
+
+.email-list{
+    flex: 1;
+    margin: 10px;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.email-list-top{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+.email-list-top-left{
+    padding: 10px 20px 10px 20px;
+}
+.email-list-top-left > .icons {
+    color: rgb(88, 88, 88);
+    margin-left: 10px ;
+    padding: 8px 15px 8px 15px;
+}
+.email-list-top-left > .icons:hover {
+    border-radius: 50px;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+.email-list-top-right{
+    padding: 10px 20px 10px 20px;
+}
+
+.email-list-top-right > .icons {
+    color: rgb(88, 88, 88);
+    margin-left: 10px ;
+    padding: 5px 12px 5px 12px;
+}
+.email-list-top-right > .icons:hover {
+    border-radius: 50px;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.email-list-section{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    padding: 12px;
+    background-color: white;
+}
